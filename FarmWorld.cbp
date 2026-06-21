@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FarmWorld" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FarmWorld" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="OpenglSoftware/libglu32.a" />
+					<Add library="OpenglSoftware/libglut32.a" />
+					<Add library="OpenglSoftware/libopengl32.a" />
+					<Add library="winmm" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FarmWorld" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CGLabmain.cpp" />
+		<Unit filename="CGLabmain.hpp" />
+		<Unit filename="CGRenderUtils.hpp" />
+		<Unit filename="OpenglSoftware/gl.h" />
+		<Unit filename="OpenglSoftware/glu.h" />
+		<Unit filename="OpenglSoftware/glut.h" />
+		<Unit filename="assets/background/tree.png" />
+		<Unit filename="assets/textures/bow.png" />
+		<Unit filename="assets/textures/brick.png" />
+		<Unit filename="assets/textures/diamond_sword.png" />
+		<Unit filename="assets/textures/explosion.png" />
+		<Unit filename="assets/textures/sky_back.png" />
+		<Unit filename="assets/textures/sky_bottom.png" />
+		<Unit filename="assets/textures/sky_front.png" />
+		<Unit filename="assets/textures/sky_left.png" />
+		<Unit filename="assets/textures/sky_right.png" />
+		<Unit filename="assets/textures/sky_top.png" />
+		<Unit filename="assets/textures/steve_skin.png" />
+		<Unit filename="assets/textures/water_beam.png" />
+		<Unit filename="assets/textures/wind_charge.png" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.hpp" />
+		<Unit filename="stb_image.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

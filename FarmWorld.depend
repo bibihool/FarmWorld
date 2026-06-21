@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1781533664 source:c:\xampp\htdocs\claudep\computer_graphic\project\farmworld\cglabmain.cpp
+	<cstdlib>
+	<iostream>
+	<iomanip>
+	<cmath>
+	"OpenglSoftware/glut.h"
+	"CGLabmain.hpp"
+	"main.hpp"
+
+1711413180 c:\xampp\htdocs\claudep\computer_graphic\project\farmworld\openglsoftware\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1780638456 c:\xampp\htdocs\claudep\computer_graphic\project\farmworld\cglabmain.hpp
+	<string>
+	<cmath>
+	<iostream>
+	"OpenglSoftware/glut.h"
+
+1781571648 c:\xampp\htdocs\claudep\computer_graphic\project\farmworld\main.hpp
+	"OpenglSoftware/glut.h"
+	"CGRenderUtils.hpp"
+
+1781531158 c:\xampp\htdocs\claudep\computer_graphic\project\farmworld\cgrenderutils.hpp
+	"OpenglSoftware/glut.h"
+
+1781533649 source:c:\xampp\htdocs\claudep\computer_graphic\project\farmworld\main.cpp
+	<windows.h>
+	<iostream>
+	<cmath>
+	"OpenglSoftware/glut.h"
+	"stb_image.h"
+	"main.hpp"
+	"CGRenderUtils.hpp"
+
+1777172636 c:\xampp\htdocs\claudep\computer_graphic\project\farmworld\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1781836918 source:c:\users\user\downloads\farmworld\cglabmain.cpp
+	<cstdlib>
+	<iostream>
+	<iomanip>
+	<cmath>
+	<windows.h>
+	<mmsystem.h>
+	"OpenglSoftware/glut.h"
+	"CGLabmain.hpp"
+	"main.hpp"
+
+1781572670 c:\users\user\downloads\farmworld\openglsoftware\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1781572669 c:\users\user\downloads\farmworld\cglabmain.hpp
+	<string>
+	<cmath>
+	<iostream>
+	"OpenglSoftware/glut.h"
+
+1781837038 c:\users\user\downloads\farmworld\main.hpp
+	"OpenglSoftware/glut.h"
+	"CGRenderUtils.hpp"
+
+1781572669 c:\users\user\downloads\farmworld\cgrenderutils.hpp
+	"OpenglSoftware/glut.h"
+
+1781572669 source:c:\users\user\downloads\farmworld\main.cpp
+	<windows.h>
+	<iostream>
+	<cmath>
+	"OpenglSoftware/glut.h"
+	"stb_image.h"
+	"main.hpp"
+	"CGRenderUtils.hpp"
+
+1781572669 c:\users\user\downloads\farmworld\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
